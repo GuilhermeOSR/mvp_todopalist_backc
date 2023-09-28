@@ -189,9 +189,9 @@ Nesse painel é possível fazer consultas simples aqui temos alguns exemplos rel
 >
 >
 > dockerfile:
-Montar imagem do docker
-```docker build -t (nome da imagem) ```
-Rodar o container do docker
-``` docker run -p 8000:8000 {nome do container} ```
+>Montar imagem do docker
+>```docker build -t (nome da imagem) ```
+>Rodar o container do docker
+>``` docker run -p 8000:8000 {nome do container} ```
 
 
