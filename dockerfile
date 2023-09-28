@@ -13,6 +13,9 @@ RUN pip install -r requirements.txt
 # Copie todo o conteúdo do diretório do projeto para o contêiner
 COPY . .
 
+# Copie o arquivo do banco de dados SQLite
+COPY database/db.sqlite3 .
+
 # Exponha a porta em que o seu aplicativo estará em execução (substitua a porta apropriada)
 EXPOSE 8000
 
